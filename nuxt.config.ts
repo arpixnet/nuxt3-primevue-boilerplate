@@ -54,6 +54,9 @@ export default defineNuxtConfig({
     fallback: 'light'
   },
   i18n: {
+    bundle: {
+      optimizeTranslationDirective: false, // Disable optimization
+    },
     locales: [
       { code: 'es', language: 'es-ES', file: 'es.json' },
       // { code: 'en', language: 'en-US', file: 'en.json' },
