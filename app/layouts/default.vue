@@ -11,8 +11,7 @@
         <!-- Navigation bar with logo -->
         <div class="w-full dark:bg-[#020420] bg-white px-8 p-3 flex justify-between items-center shadow-lg">
             <div class="h-10">
-                <NuxtImg src="https://nuxt.com/assets/design-kit/logo-green-white.png" alt="Nuxt Logo" class="h-[80%]" :class="{ 'hidden': $colorMode.value === 'light' }" />
-                <NuxtImg src="https://nuxt.com/assets/design-kit/logo-green-black.png" alt="Nuxt Logo" class="h-[80%]" :class="{ 'hidden': $colorMode.value === 'dark' }" />
+                <NuxtImg src="https://nuxt.com/assets/design-kit/logo-green-black.png" alt="Nuxt Logo" class="h-[80%]" />
             </div>
             <div class="flex gap-2">
                 <Button severity="secondary" variant="text" rounded :class="{ 'text-yellow-400': $colorMode.preference === 'light' }" @click="toggleColorMode('light')">

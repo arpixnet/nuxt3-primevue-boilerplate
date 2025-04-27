@@ -5,7 +5,6 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/fonts',
     '@nuxt/image',
-    '@nuxt/scripts',
     '@nuxtjs/tailwindcss',
     '@primevue/nuxt-module',
     '@nuxtjs/i18n',
